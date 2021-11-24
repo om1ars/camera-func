@@ -1,0 +1,11 @@
+.chat__avatar {
+    border-bottom: ;
+}
+.chat {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid whitesmoke;
+}

@@ -1,0 +1,16 @@
+import { Avatar } from "@material-ui/core";
+import React from "react";
+import "./Chat.css";
+
+export default function Chat({ id, username, imageUrl, read, timestamp }) {
+    console.log(times);
+  return (
+    <div className="chat">
+      <Avatar src="https://i.pinimg.com/736x/25/4b/04/254b0457df2facf12b95d749117aaabc.jpg" />
+      <div className='chat__info'>
+          <h4>{username}</h4>
+          <p>Tap to View - {new Date(timestamp?.toDate()).toUTCString()}</p>
+      </div>
+    </div>
+  );
+}

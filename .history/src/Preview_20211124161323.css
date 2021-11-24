@@ -1,0 +1,25 @@
+.preview {
+  position: relative;
+}
+.preview__close {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  font-size: 18px !important;
+  cursor: pointer;
+  color: white;
+}
+.preview__toolbarRight {
+  color: white;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.preview__toolbarRight > .MuiSbgIcon-root {
+    font-size: 20px !important;
+    margin-bottom: 8px;
+    
+}

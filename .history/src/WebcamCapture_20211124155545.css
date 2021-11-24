@@ -1,0 +1,7 @@
+.webcamCapture {
+    position: relative;
+}
+.webCamCapture__button {
+    position: absolute;
+    bottom: 0;
+}
